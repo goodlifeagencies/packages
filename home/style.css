@@ -1,0 +1,249 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "verdana", Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    min-width: 600px;
+    height: 100%;
+}
+.top-nav{
+    width: 100%;
+    min-width: 600px;
+    height: 59px;
+    background-color: rgb(9, 243, 79);
+    position: fixed;
+    
+    
+}
+.nav{
+    text-align: left;
+    display: inline-block;
+    width: 70%;
+}
+.home{
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight:700 ;
+    background-color: rgb(219, 223, 18);
+}
+.home:hover{
+    font-size: 17px;
+    background-color: rgb(219, 223, 18);
+    border: 0;
+    font-weight: 700;
+    transition-duration: 0.2s 
+}
+.depo{
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight:700 ;
+    background-color: rgb(219, 223, 18);
+}
+.depo:hover{
+    font-size: 17px;
+    background-color: rgb(219, 223, 18);
+    border: 0;
+    font-weight: 700;
+    transition-duration: 0.2s 
+}
+.product{
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight:700 ;
+    background-color: rgb(219, 223, 18);
+}
+.product:hover{
+    font-size: 17px;
+    background-color: rgb(219, 223, 18);
+    border: 0;
+    font-weight: 700;
+    transition-duration: 0.2s
+}
+.logo{
+    display: inline-block;
+    text-align: end;
+    width:20% ;
+}
+.pic{
+    display: inline-block;
+    border: 1px solid rgb(238, 227, 227);
+    width: 80px;
+    height: 50px;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #FFFFFF;
+    padding: 2px;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.sup-logo{
+    margin: 10px;
+    min-width: 600px;
+    border: 2px solid rgb(235, 181, 6);
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 12%;
+}
+.pic2{
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    margin-left: 25%;
+    
+}
+.pack{
+    border: 3px solid rgb(253, 253, 15);
+    background-color: rgb(235, 181, 6);
+    width: 100%;
+    min-width: 600px;
+}
+.ages{
+    margin-left: 5%;
+    font-size: 16px;
+}
+.micro{
+    background-color:  #FFFFFF;
+    width: 100%;
+    min-width: 600px;
+    display: inline-block;
+}
+.makro{
+    font-size: 18px;
+    margin-left: 30%;
+}
+.macrod{
+    margin-left: 20%; 
+    margin-right: 20%; 
+    font-size: 16px ;
+}
+.btn-c{
+  font-size: 16px;
+  
+
+}
+#activate{
+    padding: 10px 25px;
+    background-color: #4CAF50;
+    text-align: middle;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    margin-left: 25%;
+    margin-right: 25%;
+    
+}
+#activate:hover{
+    background-color: rgba(9, 241, 9, 0.9);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-duration: 0.1s;
+    color: black;
+    font-weight: 700;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19)
+}
+.emd{
+    background-color: rgb(253, 253, 15);
+    width: 100%;
+    min-width: 600px;
+    height: 5px;
+    margin-top: 16px;
+}
+.mega{
+    background-color: #FFFFFF;
+    width: 100%;
+    min-width: 600px;
+    display: inline-block;
+}
+.megapack{
+    font-size: 18px;
+    margin-left: 30%;
+}
+.packmega{
+    margin-left: 20%; 
+    margin-right: 20%; 
+    font-size: 16px ;
+} 
+.gaga{
+    background-color: #FFFFFF;
+    width: 100%;
+    min-width: 600px;
+    display: inline-block;
+} 
+.gigapack{
+    font-size: 18px;
+    margin-left: 30%;
+}
+.packgiga{
+    margin-left: 20%; 
+    margin-right: 20%; 
+    font-size: 16px ;
+}
+.footer{
+    color: white;
+    background-color: rgb(10, 9, 9);
+    width: 100%;
+    min-width: 600px;
+    height: 22vh;
+    margin-top: 10%;
+    text-align: center;
+    font-family: Verdana, 'Geneva', Tahoma, sans-serif;
+}
+.email{
+    padding-top: 2%;
+    font-size: 20px;
+}
+.malito:hover{
+    cursor: pointer;
+    color: rgb(9, 243, 79);
+}
+.appno{
+    padding-top: 2%;
+    font-size: 20px;
+    
+}
+.app{
+    padding: 10px 25px;
+    background-color: #4CAF50;
+    text-align: middle;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 16px;
+}
+.app:hover{
+    background-color: rgba(9, 241, 9, 0.9);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-duration: 0.1s;
+    color: black;
+    font-weight: 700;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19)
+}
+.copy{
+    font-size: 19px;
+    vertical-align: bottom;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+}
+
+
+
+
+
