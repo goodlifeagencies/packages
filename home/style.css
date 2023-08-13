@@ -25,15 +25,15 @@ body{
     padding: 10px 10px;
     vertical-align: middle;
     margin-left: 5px;
-    font-size: 16px;
-    font-weight:700 ;
+    font-size: 15px;
+    font-weight:600 ;
     background-color: rgb(219, 223, 18);
 }
 .home:hover{
-    font-size: 17px;
+    font-size: 16px;
     background-color: rgb(219, 223, 18);
     border: 0;
-    font-weight: 700;
+    font-weight: 600;
     transition-duration: 0.2s 
 }
 .depo{
@@ -41,15 +41,15 @@ body{
     padding: 10px 10px;
     vertical-align: middle;
     margin-left: 5px;
-    font-size: 16px;
-    font-weight:700 ;
+    font-size: 15px;
+    font-weight:600 ;
     background-color: rgb(219, 223, 18);
 }
 .depo:hover{
-    font-size: 17px;
+    font-size: 16px;
     background-color: rgb(219, 223, 18);
     border: 0;
-    font-weight: 700;
+    font-weight: 600;
     transition-duration: 0.2s 
 }
 .product{
@@ -57,31 +57,31 @@ body{
     padding: 10px 10px;
     vertical-align: middle;
     margin-left: 5px;
-    font-size: 16px;
-    font-weight:700 ;
+    font-size: 15px;
+    font-weight:600 ;
     background-color: rgb(219, 223, 18);
 }
 .product:hover{
-    font-size: 17px;
+    font-size: 16px;
     background-color: rgb(219, 223, 18);
     border: 0;
-    font-weight: 700;
+    font-weight: 600;
     transition-duration: 0.2s
 }
 .logo{
     display: inline-block;
     text-align: end;
-    width:15% ;
+    width:8% ;
 }
 .pic{
     display: inline-block;
     border: 1px solid rgb(238, 227, 227);
-    width: 80px;
-    height: 50px;
+    width: 50px;
+    height: 35px;
     vertical-align: middle;
     text-align: center;
     background-color: #FFFFFF;
-    padding: 2px;
+    padding: 7px;
 }
 img{
     width: 100%;
@@ -94,8 +94,7 @@ img{
     color: white;
     border: none;
     border-radius: 7px;
-    margin-left: 25%;
-    margin-right: 25%;
+    
     
 }
 #sign:hover{
@@ -108,13 +107,13 @@ img{
 .sup-logo{
     margin: 10px;
     border: 2px solid rgb(235, 181, 6);
-    width: 100%;
+    width: 97%;
     height: 200px;
     text-align: center;
     justify-content: center;
 }
 .pic2{
-    width: 300px;
+    width: 270px;
     height: 200px;
     text-align: center;
     margin-left: 25%;
