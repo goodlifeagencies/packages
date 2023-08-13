@@ -18,7 +18,7 @@ body{
 .nav{
     text-align: left;
     display: inline-block;
-    width: 60%;
+    width: 80%;
 }
 .home{
     display: inline-block;
@@ -71,7 +71,7 @@ body{
 .logo{
     display: inline-block;
     text-align: end;
-    width:5% ;
+    width:20% ;
 }
 .pic{
     display: inline-block;
