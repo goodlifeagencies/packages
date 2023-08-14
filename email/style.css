@@ -1,61 +1,69 @@
-body{
+body {
     margin: 0;
     padding: 0;
-    font-family: "verdana", Georgia, 'Times New Roman', Times, serif;
-    align-items: center;
-    justify-content: center;
-   
-}
-.container{
     text-align: center;
-    width: 90%;
-    height: 600px;
-    background-color: rgb(53, 45, 45);
-    padding: 7px;
-    color: white;
-    justify-content: center;
+    background-color: rgba(255, 255, 255 0.033);
     align-items: center;
-    margin: auto;
+    align-content: center ;
+    justify-content: center;
+    font-family: 'Cambria', 'Cochin', Georgia, Times, 'Times New Roman', ;
+}
+
+
+.container{
+    justify-content: center;
+    justify-items: center;
+    background-color: rgb(50, 148, 74);
+    padding: 10px;
     
 }
-.logo{
-    border: 1px solid rgb(26, 228, 177);
+
+
+img {
+    width: 80%;
     height: 21%;
-    width: 100%;
-    text-align: center;
+    margin-top: 10px;
 }
-img{
-    height: 100%;
-    width: 100%;
+
+p{
+    font-weight: 300;
+    font-size: 18px;
+    background: #f7e4e6;
+
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width:600px ;
+    margin: 2vw 4vw;
     justify-content: center;
     text-align: center;
+    margin-right: auto;
+    margin-left: auto;
 }
-.text{
-    font-size: 16px;
-    width: 100%;
+
+form .text, .salut {
+    border: 0;
+    margin: 8px 0 ;
+    padding: 10PX;
+    outline: none;
+    font-size: 14px;
 }
-button{
+
+button {
+    font-size: 17px;
     padding: 15px;
-    border: none;
-    border-radius: 10px;
-    font-size: 16px;
-    background-color: rgb(5, 223, 16);
+    background: #ff5361;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    margin: 10px auto 0;
+    border-radius: 25px;
 }
-button:hover{
-    background-color: rgb(12, 248, 157);
-    font-weight: 700;
-}
-.thanks{
-    font-size: 16px; 
-}
-footer{
-    color: white;
-    margin: auto;
-    text-align: center;
-    width: 90%;
-    bottom: 0;
-    background-color: rgb(39, 32, 32);
-}
-span{
-    font-size: 21px;
+button:hover {
+    padding:15px ;
+    
 }
