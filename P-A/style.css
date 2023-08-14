@@ -4,6 +4,11 @@
     padding: 0;
     font-family: arial, 'tohama', "verdana", Georgia, 'Times New Roman', Times, serif;
 }
+.container{
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+}
 .top-nav{
     width: 100%;
     min-width: 600px;
