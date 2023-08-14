@@ -9,7 +9,7 @@ body{
 .container{
     text-align: center;
     width: 90%;
-    height: 800px;
+    height: 600px;
     background-color: rgb(53, 45, 45);
     padding: 7px;
     color: white;
@@ -21,7 +21,7 @@ body{
 .logo{
     border: 1px solid rgb(26, 228, 177);
     height: 21%;
-    width: 81%;
+    width: 100%;
     text-align: center;
 }
 img{
@@ -32,7 +32,7 @@ img{
 }
 .text{
     font-size: 16px;
-    width: 90%;
+    width: 100%;
 }
 button{
     padding: 15px;
@@ -47,14 +47,15 @@ button:hover{
 }
 .thanks{
     font-size: 16px; 
-    margin-top: 10%; 
 }
 footer{
-    width: 100%;
+    color: white;
+    margin: auto;
+    text-align: center;
+    width: 90%;
     bottom: 0;
     background-color: rgb(39, 32, 32);
 }
 span{
     font-size: 21px;
 }
-
