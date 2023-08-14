@@ -6,6 +6,7 @@
 .con{
     justify-content: center;
     justify-items: center;
+     padding: 10px;
 }
 .top-nav{
     width: 100%;
