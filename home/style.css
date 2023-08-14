@@ -78,7 +78,6 @@ body{
     width:20% ;
 }
 .pic{
-    display: block;
     border: 1px solid rgb(238, 227, 227);
     width: 45px;
     height: 35px;
@@ -112,9 +111,9 @@ img{
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19)
 }
 .sup-logo{
-    margin: 10px;
+    margin: auto;
     border: 2px solid rgb(235, 181, 6);
-    width: 100%;
+    width: 90%;
     height: 200px;
     text-align: center;
     justify-content: center;
