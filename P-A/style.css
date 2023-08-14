@@ -8,6 +8,8 @@
     margin: auto;
     justify-content: center;
     align-content: center;
+    padding: 10px;
+    zoom: 0%;
 }
 .top-nav{
     width: 100%;
