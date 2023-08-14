@@ -11,7 +11,7 @@
     flex-direction: column;
 }
 .top-nav{
-    width: 90%;
+    width: 100%;
     min-width: 600px;
     height: 59px;
     background-color: rgb(9, 243, 79);  
@@ -25,7 +25,7 @@
 }
 .home{
     display: inline-block;
-    padding: 5% 5%;
+    padding: 1rem 1rem;
     vertical-align: middle;
     margin-left: 10px;
     font-size: 16px;
@@ -41,7 +41,7 @@
 }
 .depo{
     display: inline-block;
-    padding: 5% 5%;
+    padding: 1rem 1rem;
     vertical-align: middle;
     margin-left: 10px;
     font-size: 16px;
@@ -57,7 +57,7 @@
 }
 .product{
     display: inline-block;
-    padding: 5% 5%;
+    padding: 1rem 1rem;
     vertical-align: middle;
     margin-left: 10px;
     font-size: 16px;
@@ -92,7 +92,7 @@ img{
 }
 .container{
      background-color: rgb(254, 255, 255);
-     width: 90%;
+     width: 100%;
      min-width:600px ;
      height: 100vh;
      display: grid;
@@ -169,7 +169,7 @@ button:hover{
 .footer{
     color: white;
     background-color: rgb(10, 9, 9);
-    width: 90%;
+    width: 100%;
     min-width:600px ;
     height: 22vh;
     margin-top: 10%;
