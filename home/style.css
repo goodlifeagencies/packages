@@ -86,6 +86,9 @@ body{
     text-align: end;
     background-color: #FFFFFF;
     padding: 1px;
+    display: inline-block;
+    padding: 7px 6px;
+    margin-left: 2px;
 }
 img{
     width: 100%;
