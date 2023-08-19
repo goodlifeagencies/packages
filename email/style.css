@@ -15,12 +15,16 @@ body {
     justify-items: center;
     background-color: rgb(50, 148, 74);
     padding: 10px;
+    width: 100%;
+    max-width: 600px;
+    height: 100vh;
+    margin: auto;
     
 }
 
 
 img {
-    width: 80%;
+    width: 90%;
     height: 21%;
     margin-top: 10px;
 }
@@ -51,6 +55,7 @@ form .text, .salut {
     padding: 10PX;
     outline: none;
     font-size: 14px;
+    width: 90%;
 }
 
 button {
