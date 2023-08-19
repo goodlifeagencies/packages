@@ -16,31 +16,31 @@ body {
     background-color: rgb(50, 148, 74);
     padding: 10px;
     width: 100%;
-    height: 100vh;
     margin: auto;;
     
 }
-
-
+.pc{
+    width: 100%;
+    height: 30%;
+    background-color: #f7e4e6;
+}
 img {
     width: 90%;
-    height: 21%;
+    height: 100%;
     margin-top: 10px;
 }
 
 p{
     font-weight: 300;
-    font-size: 18px;
+    font-size: 16px;
     background: #f7e4e6;
 
 
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-    height: auto;
+    display: block;
+    width: 100%;
     margin: 2vw 4vw;
     justify-content: center;
     text-align: center;
@@ -49,12 +49,13 @@ form {
 }
 
 .text,.salut {
+    display: block;
     border: 0;
     margin: 8px 0 ;
     padding: 10PX;
     outline: none;
     font-size: 14px;
-    width: 90%;
+    width: 100%;
     margin: auto;
 }
 
