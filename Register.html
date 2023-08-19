@@ -4,22 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Goodlife agencies</title>
-    <link rel="stylesheet" href="sign/style.css">
-    <link rel="icon" href="gdlf-assets/min-logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/gdlf-assets/min-logo.png" type="image/x-icon">
 </head>
-<body>
+<body onload='document.form1.text1.focucs()'>
   
-  <img src="gdlf-assets/logo.jpg" alt="logo">
+  <img src="/gdlf-assets/logo.jpg" alt="logo">
 
   
   <div class="container">
-        <p> Fill your details bellow </p>
-        <form target="_blank" action="https://formspree.io/f/mleyjbaj" method="POST">
+        <p class="top-text"> Fill your details below </p>
+        <form target="_blank" action="https://formspree.io/f/mleyjbaj" method="POST" name="form1" action="#">
             <input type="text" name="referedby" placeholder="refered by">   
-            <input type="text" name="firstname" placeholder="firstname" required>
+            <input type="text" firstname="firstname" placeholder="firstname" required>
             <input type="text" lastname="lastname" placeholder="lastname" required>
             <input type="text" name="username" placeholder="your username" required>
             <input type="email" name="email" placeholder="email@gmail.com" required>
+    
             <input type="numbers" name="phone" placeholder="0799955512" required>
             
         
@@ -88,12 +89,18 @@
                 </select>
                 <button onclick="myFuction()">
                     SEND</button>
+                    
                     <script>
                         function myFunction() {
                           alert("Hello we have sent an email message.kindly check your email box in a minute.");
                         }
                         </script>
         </form>
+        <div class="info">
+            <p class="word">
+                after you have click "SEND" , check your email inbox after few a minutes. if you don't recieve any email message, re-enter a valid email adress.
+            </p>
+        </div>
         
   </div>
   <hr>
