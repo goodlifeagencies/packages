@@ -16,9 +16,8 @@ body {
     background-color: rgb(50, 148, 74);
     padding: 10px;
     width: 100%;
-    max-width: 600px;
     height: 100vh;
-    margin: auto;
+    margin: auto;;
     
 }
 
@@ -41,7 +40,7 @@ form {
     display: flex;
     flex-direction: column;
     width: 90%;
-    max-width:600px ;
+    height: auto;
     margin: 2vw 4vw;
     justify-content: center;
     text-align: center;
@@ -49,13 +48,14 @@ form {
     margin-left: auto;
 }
 
-form .text, .salut {
+.text,.salut {
     border: 0;
     margin: 8px 0 ;
     padding: 10PX;
     outline: none;
     font-size: 14px;
     width: 90%;
+    margin: auto;
 }
 
 button {
