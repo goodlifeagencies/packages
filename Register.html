@@ -12,7 +12,7 @@
   <img src="gdlf-assets/logo.jpg" alt="logo">
   <div class="container">
         <p class="top-text"> Fill your details below </p>
-        <form>
+        <form action="https://script.google.com/macros/library/d/15UL4BTEifbLMfQhzorU2FoWUi9YqLp2OIsTAa_3_RA7yKMwt6j3nUWXW/1" method="POST">
             <input type="text" name="referedby" placeholder="refered by(Optional)">   
             <input type="text" name="fullname" placeholder="full name" required>
             <input type="text" name="username" placeholder="your username" required>
@@ -83,22 +83,8 @@
                     <option value="ZM">Zambia</option>
                     <option value="ZW">Zimbabwe</option>
                 </select>
-                    <input type="submit" <button>submit</button> >
+                    <button>submit</button>
         </form>
-            <script>
-                let form = document.querySelector("form");
-                form.addEventListener('submit',(e)=>{
-                    e.preventDefault();
-                    let data = new FormData(form);
-                    fetch('https://script.google.com/macros/library/d/15UL4BTEifbLMfQhzorU2FoWUi9YqLp2OIsTAa_3_RA7yKMwt6j3nUWXW/1',{
-                        method: "POST",
-                        body: data
-                    })
-                    .then(res => res.text())
-                    .then(data => console.log(data));
-                })
-            </script>
-      
        <div class="info">
             <p class="word">
                 after you have clicked "SEND" , check your email inbox after a few minutes. if you don't recieve any email message, re-enter a valid email adress.
